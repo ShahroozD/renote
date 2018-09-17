@@ -1,0 +1,99 @@
+/* here you can put your own css to customize and override the theme */
+
+.row {
+    margin: 0;
+}
+.page-content-wrapper .page-content {
+    padding: 0;
+    /* padding: 10px 20px 0 0; */
+}
+
+.navbar-fixed-top{
+  position: fixed !important;
+}
+
+#user_toggle {
+    display: none;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle>i {
+  font-size: 25px;
+}
+.page-content-wrapper{
+  margin-top: 100px;
+}
+
+#map-compact{
+  width: 100%;
+  height: 300px;
+}
+
+.ad_photo{
+  width: 100%;
+  height: 250px;
+}
+
+.navbar__logo{
+  color: #fff;
+}
+
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding: 3px 11px 3px 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+
+@media (min-width: 1460px){
+
+  .col-xl-4 {
+      width: 33.33333%;
+  }
+
+}
+
+
+@media (max-width: 767px){
+  .page-header.navbar .page-top {
+      display: none;
+  }
+  #user_toggle {
+      display: inherit;
+  }
+  .navbar-fixed-top {
+    position: relative;
+    top: auto;
+    }
+  .mobile-fixed-bottom{
+    position: fixed !important;
+    bottom: 0!important;
+    z-index: 10;
+  }
+  .nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .nav>li>a:focus, .nav>li>a:hover{
+    background-color: #3b3f51
+  }
+
+
+  .page-content-wrapper{
+    margin-top: 20px;
+  }
+
+  .portlet.light.bordered {
+    margin-bottom: 95px;
+  }
+
+  .navbar__text{
+    display: none;
+  }
+
+}

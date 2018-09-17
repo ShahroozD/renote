@@ -1,0 +1,7 @@
+Django==2.0.3
+Khayyam==3.0.17
+numpy==1.14.2
+pytz==2018.3
+simplejson==3.13.2
+six==1.11.0
+user-agent==0.1.9

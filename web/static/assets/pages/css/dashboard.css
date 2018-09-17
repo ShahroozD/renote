@@ -1,0 +1,431 @@
+/* here you can put your own css to customize and override the theme */
+.dash-form{
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10%;
+  margin-bottom: 12%;
+}
+
+.center{
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+textarea.form-control {
+  height: 100% !important;
+}
+
+.container{
+  width: 92%;
+}
+
+.row {
+     margin-right: 0;
+     margin-left: 0;
+}
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.{
+
+}
+.follow-btn {
+  background-color: #ececec;
+  border: 1px solid #4a4a4a;
+  color: #4a4a4a;
+  font-weight: 600;
+  padding: 10px 25px !important;
+  min-width: 100%;
+  min-height: 100%;
+  border-radius: 2px;
+  font-size: 12px;
+}
+  .follow-btn:hover {
+    background-color: #cecece;
+    color: #1d1d1d;
+  }
+
+.btn-req{
+  margin-bottom: 30px;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #fbfcfd;
+    color: #4a4a4a;
+}
+
+
+.costing{
+  display: none;
+  text-align: center;
+}
+
+.transfer{
+  display: none;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.date{
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+.date-picker{
+  display: none;
+  text-align: center;
+}
+
+.date-picker select{
+      display: -webkit-inline-box;
+      width: inherit;
+}
+
+.date a{
+  margin: 0;
+  width: 80px;
+}
+
+.isincome {
+    text-align: center;
+    float: inherit !important;
+}
+
+#radioBtn{
+  margin-bottom: 15px;
+}
+
+#radioBtn a{
+  margin: 0;
+  width: 80px;
+}
+
+#radioBtn_out {
+  /*margin-right: 1px;*/
+}
+
+#radioBtn_out a{
+  margin: 0;
+  width: 80px;
+}
+
+.notActive{
+    color: #3276b1 !important;
+    background-color: #353535 !important;
+}
+
+
+
+
+
+
+
+#explore_list{
+  display: none;
+  color: #5f5a55;
+}
+#list{
+  display: none;
+  color: #5f5a55;
+}
+#profile{
+  display: none;
+}
+
+
+
+/*======================================================*/
+/*======================================================*/
+/*======================================================*/
+.page-title{
+  width: 100%;
+  background-color: #d0d0d0;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+}
+
+
+.page-title span {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+    color: #000;
+    font-size: 19px;
+    text-align: center;
+}
+
+
+
+
+/*======================================================*/
+/*======================================================*/
+/*======================================================*/
+.icon-bar {
+    width: 100%;
+    background-color: #d0d0d0;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+}
+
+.icon-bar a {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 18px 0;
+    transition: all 0.3s ease;
+    color: #000;
+    font-size: 30px;
+}
+
+.icon-bar a:hover {
+    background-color: #7b7b7b;
+}
+
+/*.active {
+    background-color: #4CAF50 !important;
+}*/
+
+
+
+
+
+
+
+/*======================================================*/
+/*======================================================*/
+/*======================================================*/
+
+.card {
+  transition: .3s;
+  /*margin-top: 2%;*/
+  /*margin-bottom: 2%;*/
+  padding-bottom: 3%;
+  padding-top: 2%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+
+.explore {
+    /* Add shadows to create the "card" effect */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    padding: 0;
+    margin: 0;
+    background-color: #00072b;
+
+    position:relative;
+    overflow:hidden;
+    padding-bottom:33.33333%;
+    width: 33.33333%;
+}
+
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
+}
+
+.card-header{
+  padding: 2px;
+  text-align: right;
+}
+
+.card-title{
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Add some padding inside the card container */
+.text_p {
+    padding: 2px 16px;
+}
+
+.explore img{
+  position:absolute;
+}
+
+.card-image{
+  height: 180px;
+}
+
+.post-image{
+  max-height: 300px;
+}
+
+.card-footer i{
+  margin: 2%;
+}
+
+.red_like{
+  color: red !important;
+}
+
+
+
+/*======================================================*/
+/*======================================================*/
+/*======================================================*/
+
+#pageModal{
+  z-index: 1000000;
+}
+
+/*#pageModal*/
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*#pageModal*/
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.modal{
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
+.back_modal {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 0;
+    width: 25px;
+    height: 20px;
+    background-repeat: no-repeat!important;
+    text-indent: -10000px;
+    outline: 0;
+    background-image: url(./img/Left-arrow.png)!important;
+    background-size: 25px 20px;
+    float: left;
+    font-size: 21px;
+    line-height: 1;
+    color: #000;
+    background-color: #fff
+    /*opacity: .2;*/
+}
+
+button.back_modal {
+    padding: 0;
+    cursor: pointer;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+
+.usernamePage {
+  margin: 0 auto;
+  width: 90%;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.usernamePage h1 {
+  color: #4b4946;
+  margin: 0px;
+  padding: 0px;
+}
+
+.usernamePage h2 {
+  font-size: 16px;
+  color: #8a8a8a;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.usernamePage h2 a {
+  color: #8a8a8a;
+  text-decoration: none;
+}
+
+
+
+
+.count {
+  width: 90%;
+  color: black;
+  font-size: 20px;
+  margin: 0 auto;
+  /*padding-bottom: 20px;*/
+  text-align: center;
+  font-size: 16px;
+}
+
+.count ul {
+  padding: 0px;
+  margin: 0px;
+  /*margin-left: -42px;*/
+}
+
+.count ul li {
+  list-style: none;
+  display: inline-block;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.count ul li span {
+  display: block;
+  color: #8a8a8a;
+  font-size: 13px;
+}
+
+.modal-body{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+
+.modal.fade .modal-dialog {
+    /*-webkit-transform: translate3d(0, -25%, 0);*/
+    /*transform: translate3d(0, -25%, 0);*/
+}
+
+.modal.fade:not(.in) .modal-dialog {
+    -webkit-transform: translate3d(-25%, 0, 0);
+    transform: translate3d(-25%, 0, 0);
+}
